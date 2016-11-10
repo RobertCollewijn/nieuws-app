@@ -7,11 +7,13 @@ import {AppComponent} from './app.component';
 import {NieuwsItemsService} from "./services/nieuws-items.service";
 import { NieuwsItemsComponent } from './components/nieuws-items/nieuws-items.component';
 import {routing} from "./app.router";
+import { NieuwsItemComponent } from './components/nieuws-item/nieuws-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NieuwsItemsComponent
+    NieuwsItemsComponent,
+    NieuwsItemComponent
   ],
   imports: [
     BrowserModule,
