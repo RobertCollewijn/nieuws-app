@@ -23,7 +23,7 @@ export class NieuwsItemsComponent implements OnInit {
           },
           error => console.error(error)
         );
-    },4);
+    },0);
   }
 
   onSelect(nieuwsItem: NieuwsItem){

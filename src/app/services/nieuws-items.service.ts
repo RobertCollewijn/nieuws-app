@@ -21,6 +21,14 @@ export class NieuwsItemsService {
     return this.http.get(url).map((res: Response) => res.json());
   }
 
+  loadNieuwsItem(search: string) {
+    console.log('searching for $(search)' + search);
+    let params: URLSearchParams = new URLSearchParams();
+    params.set('search', search);
+
+    let url = "http://10.0.0.104:3000/nieuwsItems/"+search;
+    return this.http.get(url).map((res: Response) => res.json());
+  }
 
   editNieuwsItem(nieuwsItemId) {
 
