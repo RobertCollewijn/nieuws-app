@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router, ActivatedRoute} from "@angular/router";
 import {NieuwsItem} from "../../models/nieuws-item";
 import {NieuwsItemsService} from "../../services/nieuws-items.service";
 
@@ -11,8 +12,9 @@ export class NieuwsItemsComponent implements OnInit {
 
 
   nieuwsItems: NieuwsItem[];
+  selectedNieuwsItem: NieuwsItem;
 
-  constructor(private nieuwsItemService: NieuwsItemsService) {
+  constructor(private router: Router, private route: ActivatedRoute,private nieuwsItemService: NieuwsItemsService) {
     setTimeout(()=> {
       this.nieuwsItemService.loadNieuwsItems()
         .subscribe(
@@ -24,6 +26,10 @@ export class NieuwsItemsComponent implements OnInit {
     },4);
   }
 
+  onSelect(nieuwsItem: NieuwsItem){
+    this.selectedNieuwsItem = nieuwsItem;
+    this.router.navigate(['nieuwsItem', { id: this.selectedNieuwsItem.id }]);
+  }
   ngOnInit() {
   }
 }

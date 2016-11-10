@@ -17,7 +17,7 @@ export class NieuwsItemsService {
     console.log('searching for $(search)');
 
 
-    let url = "http://www.regimentslaan.nl:3000/nieuwsItems";
+    let url = "http://10.0.0.104:3000/nieuwsItems";
     return this.http.get(url).map((res: Response) => res.json());
   }
 

@@ -1,9 +1,10 @@
 <p>
-  nieuws-items works!
+  Alle nieuws items
 </p>
 
-<table class="lessons-list card card-strong">
-  <tr *ngFor="let nieuwsItem of nieuwsItems">
+<table>
+  <tr *ngFor="let nieuwsItem of nieuwsItems"
+      (click)="onSelect(nieuwsItem)">
     <td>
       "afbeelding"
     </td>
