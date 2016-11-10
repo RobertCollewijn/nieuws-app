@@ -5,15 +5,19 @@ import {HttpModule} from '@angular/http';
 
 import {AppComponent} from './app.component';
 import {NieuwsItemsService} from "./services/nieuws-items.service";
+import { NieuwsItemsComponent } from './components/nieuws-items/nieuws-items.component';
+import {routing} from "./app.router";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NieuwsItemsComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    routing
   ],
   providers: [NieuwsItemsService],
   bootstrap: [AppComponent]

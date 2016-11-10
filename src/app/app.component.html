@@ -1,17 +1,5 @@
 <h1>
   {{title}}
 </h1>
+<router-outlet></router-outlet>
 
-<table class="lessons-list card card-strong">
-  <tr *ngFor="let nieuwsItem of nieuwsItems">
-    <td>
-     "afbeelding"
-    </td>
-    <td>
-      {{nieuwsItem.titel}}
-    </td>
-    <td>
-      <button (click)="nieuwsItemsService.editNieuwsItem(nieuwsItem.id)">Edit</button>
-    </td>
-  </tr>
-</table>
