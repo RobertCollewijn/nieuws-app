@@ -1,6 +1,39 @@
 {
   "nieuwsItems": [
-    {"id": 1, "titel": "Countryhouse4sale", "status":"","auteur":"Arjen Jorritsma", "datum":"2016-07-01T12:00:00.000Z","samenvattingOverzicht": "<p>Na farms4sale wordt nu Countryhouse4sale binnenkort gelanceerd.Wilt u ook nog eens iets anders in uw leven of uw bedrijf in afgeslankte vorm nog doorzetten in Nederland of in het buitenland.</p>","afbeeldingIdOverzicht":1,"samenvattingNieuwsbrief": "<p>Na farms4sale wordt nu Countryhouse4sale binnenkort gelanceerd.Wilt u ook nog eens iets anders in uw leven of uw bedrijf in afgeslankte vorm nog doorzetten in Nederland of in het buitenland.</p>","afbeeldingIdNieuwsbrief":2,"bericht": "<p>Na farms4sale wordt nu Countryhouse4sale binnenkort gelanceerd.Wilt u ook nog eens iets anders in uw leven of uw bedrijf in afgeslankte vorm nog doorzetten in Nederland of in het buitenland.</p>","afbeeldingen":[3,4,5]},
-    {"id": 2, "titel": "Glazen bol", "status":"","auteur":"Johan Sikken", "datum":"2016-07-01T11:00:00.000Z","samenvattingOverzicht": "<p>Wij bevinden ons op dit moment in een roerige tijd wat betreft de opbrengstprijzen voor landbouwproducten. Veel aan de landbouw gerelateerde bedrijven en organisaties menen de markt voor landbouwproducten te kunnen voorspellen. Met verschillende rekenmodellen komen er evenzoveel uitkomsten uit die achteraf vaak toch niet blijken uit te komen.</p>","afbeeldingIdOverzicht":11,"samenvattingNieuwsbrief": "<p>Wij bevinden ons op dit moment in een roerige tijd wat betreft de opbrengstprijzen voor landbouwproducten. Veel aan de landbouw gerelateerde bedrijven en organisaties menen de markt voor landbouwproducten te kunnen voorspellen. Met verschillende rekenmodellen komen er evenzoveel uitkomsten uit die achteraf vaak toch niet blijken uit te komen.</p>","afbeeldingIdNieuwsbrief":12,"bericht": "<p>Wij bevinden ons op dit moment in een roerige tijd wat betreft de opbrengstprijzen voor landbouwproducten. Veel aan de landbouw gerelateerde bedrijven en organisaties menen de markt voor landbouwproducten te kunnen voorspellen. Met verschillende rekenmodellen komen er evenzoveel uitkomsten uit die achteraf vaak toch niet blijken uit te komen.</p>","afbeeldingen":[13,14,15,16]}
+    {
+      "id": "1",
+      "titel": "Countryhouse4salederr",
+      "status": "",
+      "auteur": "Arjen Jorritsma",
+      "datum": "2016-07-01T12:00:00.000Z",
+      "samenvattingOverzicht": "Nader farms4sale wordt nu Countryhouse4sale binnenkort gelanceerd.Wilt u ook nog eens iets anders in uw leven of uw bedrijf in afgeslankte vorm nog doorzetten in Nederland of in het buitenland.",
+      "afbeeldingIdOverzicht": 1,
+      "samenvattingNieuwsbrief": "<p>Na farms4sale wordt nu Countryhouse4sale binnenkort gelanceerd.Wilt u ook nog eens iets anders in uw leven of uw bedrijf in afgeslankte vorm nog doorzetten in Nederland of in het buitenland.</p>",
+      "afbeeldingIdNieuwsbrief": 2,
+      "bericht": "<p>Na farms4sale wordt nu Countryhouse4sale binnenkort gelanceerd.Wilt u ook nog eens iets anders in uw leven of uw bedrijf in afgeslankte vorm nog doorzetten in Nederland of in het buitenland.</p>",
+      "afbeeldingen": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "2",
+      "titel": "Glazen bolN",
+      "status": "",
+      "auteur": "Johan Sikken",
+      "datum": "2016-07-01T11:00:00.000Z",
+      "samenvattingOverzicht": "<p>Wij bevinden ons op dit moment in een roerige tijd wat betreft de opbrengstprijzen voor landbouwproducten. Veel aan de landbouw gerelateerde bedrijven en organisaties menen de markt voor landbouwproducten te kunnen voorspellen. Met verschillende rekenmodellen komen er evenzoveel uitkomsten uit die achteraf vaak toch niet blijken uit te komen.</p>",
+      "afbeeldingIdOverzicht": 11,
+      "samenvattingNieuwsbrief": "<p>Wij bevinden ons op dit moment in een roerige tijd wat betreft de opbrengstprijzen voor landbouwproducten. Veel aan de landbouw gerelateerde bedrijven en organisaties menen de markt voor landbouwproducten te kunnen voorspellen. Met verschillende rekenmodellen komen er evenzoveel uitkomsten uit die achteraf vaak toch niet blijken uit te komen.</p>",
+      "afbeeldingIdNieuwsbrief": 12,
+      "bericht": "<p>Wij bevinden ons op dit moment in een roerige tijd wat betreft de opbrengstprijzen voor landbouwproducten. Veel aan de landbouw gerelateerde bedrijven en organisaties menen de markt voor landbouwproducten te kunnen voorspellen. Met verschillende rekenmodellen komen er evenzoveel uitkomsten uit die achteraf vaak toch niet blijken uit te komen.</p>",
+      "afbeeldingen": [
+        13,
+        14,
+        15,
+        16
+      ]
+    }
   ]
 }

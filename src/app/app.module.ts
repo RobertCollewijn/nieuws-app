@@ -3,11 +3,13 @@ import {NgModule} from '@angular/core';
 import {FormsModule} from '@angular/forms';
 import {HttpModule} from '@angular/http';
 
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
 import {AppComponent} from './app.component';
 import {NieuwsItemsService} from "./services/nieuws-items.service";
-import { NieuwsItemsComponent } from './components/nieuws-items/nieuws-items.component';
+import {NieuwsItemsComponent} from './components/nieuws-items/nieuws-items.component';
 import {routing} from "./app.router";
-import { NieuwsItemComponent } from './components/nieuws-item/nieuws-item.component';
+import {NieuwsItemComponent} from './components/nieuws-item/nieuws-item.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { NieuwsItemComponent } from './components/nieuws-item/nieuws-item.compon
     BrowserModule,
     FormsModule,
     HttpModule,
-    routing
+    routing,
+    NgbModule.forRoot()
+
   ],
   providers: [NieuwsItemsService],
   bootstrap: [AppComponent]
