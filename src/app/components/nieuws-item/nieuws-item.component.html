@@ -2,3 +2,12 @@
   nieuws-item works!
 </p>
 <h1> {{nieuwsItem?.titel}}</h1>
+
+<form [formGroup]="myForm" autocomplete="off" novalidate>
+  <div class="form-field">
+    <label>Title:</label>
+    <input formControlName="title">
+
+  </div>
+
+</form>
